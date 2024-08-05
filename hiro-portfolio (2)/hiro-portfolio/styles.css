@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #4B0082; /* Adjust the color to match the design */
+}
+
+section {
+    padding: 60px 0;
+}
+
+.progress-bar .animate {
+    width: 100%;
+ }
+
+.progress {
+    margin-bottom: 20px;
+}
+
+.navbar-brand, .nav-link {
+    color: #FFF !important;
+}
+
+.text-white {
+    font-weight: bold;
+}
+
+.text-opening {
+    margin-right: 25%;
+}
+
+.gold-text {
+    color: gold;
+}
+
+.btn {
+    width: 30%;
+}
+
+#whoim {
+    background: linear-gradient(to right, #8A2BE2, #4B0082);
+    color: #FFF;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    height: 700px;
+}
+
+#portfolio {
+    background: linear-gradient(to right, #4B0082 ,#e2de2b );
+    color: #FFF;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    height: 100%;
+    
+}
+
+#portfolio h2 {
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 0 0 0;
+}
+
+#portfolio img {
+    border-radius: 10px;
+}
+
+#contact {
+    background: linear-gradient(to right, #820045 ,#7de22b );
+    color: #FFF;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    height: 700px;
+}
+
+#contact img {
+    background-size: cover;
+}
+
+.h2-text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-socmed {
+width: 100%;
+line-height: 22px;
+}
+
+.cards {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+#contact h2 {
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 0 0 0;
+}
+
+#skill {
+    background: linear-gradient(to right, #3d3639 ,#707070 );
+    color: #FFF;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    height: 700px;
+}
+
+#skill h2 {
+    font-weight: bold;
+    color: #FFF;
+    padding: 15px 0 0 0;
+}
+
+.img-fluid-boder {
+    border : 5px solid #fff;
+    margin: 50px;
+    position: relative;
+    top: 20%;
+    width: 75%;
+}
+
+#navbar {
+    overflow: hidden;
+  }
+
+  .nav-link.active {
+    background-color: #141315 !important;
+  }
+
+.img-rotation-style {
+    rotate: 25deg;
+    background: linear-gradient(to right, #808080, #342f37);
+}
+
+.img-port-style {
+    background: linear-gradient(to right, #808080, #342f37);
+}
+
+.div-position-image {
+    top: 50px;
+    text-align: right;
+}
+
+.container-bg {
+    background-color: darkgrey;
+}
+
+.div-fl_left {
+    float: left;
+    padding-right: 15px;
+    margin-right: 25px;
+}
+
+.progress-containers {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progress-bars {
+    position: fixed;
+    height: 15px;
+    background: gold;
+    width: 0%;
+    top: 8%;
+    z-index: 99;
+  }
+
+ .progress-barrs {
+    background: gold !important;
+    color: #141315 !important;
+    font-weight: bold;
+ }
+
+  .p-rate {
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+
+  .h6-html{
+    padding-right: 10px;
+  }
+
+  .h6-css{
+    padding-right: 21px;
+  }
+
+  .h6-php{
+    padding-right: 21px;
+  }
+
+  .h6-js{
+    padding-right: 35px;
+  }
+
+  .h6-java{
+    padding-right: 15px;
+  }
+
+  .limited-text {
+    text-align: center;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .a-link:hover{
+    background-color: #14131585;
+  }
